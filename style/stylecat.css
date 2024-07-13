@@ -1,0 +1,31 @@
+*{
+    box-sizing:border-box;
+    list-style:none;
+}
+body{
+    margin: 0px;
+    background-image: url(edited.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    
+
+}
+
+#pdf-container {
+    width: 100%; /* Ensure the container spans the entire width of its parent */
+    height: 100vh; /* Use 100% of the viewport height to make it fullscreen */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+    overflow: hidden; /* Prevent scrollbars */
+    position: relative; /* Ensure proper positioning context */
+}
+
+#pdf-container embed,
+#pdf-container iframe {
+    width: 100%; /* Make sure the embedded PDF fills the container */
+    height: 100%; /* Make sure the embedded PDF fills the container */
+    display: block; /* Ensure the embedded element is treated as a block */
+    border: none; /* Remove any default border */
+}
+
