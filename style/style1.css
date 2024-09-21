@@ -5,10 +5,11 @@
 
 body {
     margin: 0;
-    background-image: url(edited.jpeg);
+    background-image: url('D:\Niya\Muddy Blooms-local repo\public\pictures\bgrnd1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
 }
 
 header {
@@ -16,6 +17,8 @@ header {
     text-align: center;
     background-color: #022c22;
     color: #ecfdf5;
+    background-image: url('D:\Niya\Muddy Blooms-local repo\public\pictures\bgrnd1.jpg');
+
 }
 
 header h1 {
@@ -39,10 +42,13 @@ nav a {
     color: #065f46;
 }
 
+
+
 main h3 {
     color: #022c22;
     margin: 0%;
     font-size: 20px;
+    
 }
 
 main a {
@@ -88,6 +94,7 @@ footer a {
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
+    background-image:url(public\pictures\bgrnd1.jpg);
 }
 
 .image {
